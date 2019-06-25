@@ -1,0 +1,24 @@
+{
+  "name": "async-await",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npm install && node -r esm ./app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thedanotto/async-await.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thedanotto/async-await/issues"
+  },
+  "homepage": "https://github.com/thedanotto/async-await#readme",
+  "dependencies": {
+    "esm": "^3.2.25",
+    "node-fetch": "^2.6.0"
+  }
+}
